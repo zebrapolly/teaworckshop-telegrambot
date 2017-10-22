@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', '-g', 'n' ]
+2 info using npm@3.10.10
+3 info using node@v7.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData n
+8 silly fetchNamedPackageData n
+9 silly mapToRegistry name n
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'n',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'n',
+12 silly mapToRegistry   name: 'n',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/n
+14 verbose get https://registry.npmjs.org/n not expired, no request
+15 silly install normalizeTree
+16 silly loadCurrentTree Finishing
+17 silly loadIdealTree Starting
+18 silly install loadIdealTree
+19 silly cloneCurrentTree Starting
+20 silly install cloneCurrentTreeToIdealTree
+21 silly cloneCurrentTree Finishing
+22 silly loadShrinkwrap Starting
+23 silly install loadShrinkwrap
+24 silly loadShrinkwrap Finishing
+25 silly loadAllDepsIntoIdealTree Starting
+26 silly install loadAllDepsIntoIdealTree
+27 silly resolveWithNewModule n@2.1.8 checking installable status
+28 silly cache add args [ 'n', null ]
+29 verbose cache add spec n
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'n',
+30 silly cache add   scope: null,
+30 silly cache add   escapedName: 'n',
+30 silly cache add   name: 'n',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed n@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for n
+33 info addNameTag [ 'n', 'latest' ]
+34 silly mapToRegistry name n
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'n',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   escapedName: 'n',
+37 silly mapToRegistry   name: 'n',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/n
+39 verbose addNameTag registry:https://registry.npmjs.org/n not in flight; fetching
+40 verbose get https://registry.npmjs.org/n not expired, no request
+41 silly addNameTag next cb for n with tag latest
+42 silly addNamed n@2.1.8
+43 verbose addNamed "2.1.8" is a plain semver version for n
+44 silly cache afterAdd n@2.1.8
+45 verbose afterAdd /Users/zebra/.npm/n/2.1.8/package/package.json not in flight; writing
+46 verbose correctMkdir /Users/zebra/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /Users/zebra/.npm/n/2.1.8/package/package.json written
+48 silly loadAllDepsIntoIdealTree Finishing
+49 silly loadIdealTree Finishing
+50 silly currentTree lib
+50 silly currentTree └── n@2.1.4
+51 silly idealTree lib
+51 silly idealTree └── n@2.1.8
+52 silly generateActionsToTake Starting
+53 silly install generateActionsToTake
+54 warn checkPermissions Missing write access to /usr/local/lib/node_modules/n
+55 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+56 silly rollbackFailedOptional Starting
+57 silly rollbackFailedOptional Finishing
+58 silly runTopLevelLifecycles Finishing
+59 silly install printInstalled
+60 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/n'
+61 verbose cwd /Users/zebra/Project/teaworkshop/telegam-bot
+62 error Darwin 16.6.0
+63 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "n"
+64 error node v7.2.1
+65 error npm  v3.10.10
+66 error path /usr/local/lib/node_modules/n
+67 error code EACCES
+68 error errno -13
+69 error syscall access
+70 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/n'
+70 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/n'
+70 error   errno: -13,
+70 error   code: 'EACCES',
+70 error   syscall: 'access',
+70 error   path: '/usr/local/lib/node_modules/n' }
+71 error Please try running this command again as root/Administrator.
+72 verbose exit [ -13, true ]
